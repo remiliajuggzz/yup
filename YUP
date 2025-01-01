@@ -64,7 +64,7 @@ TEST.TextSize = 14.000
 
 -- Scripts:
 
-local function AVWHUIG_fake_script() -- Frame.LocalScript 
+local function INNB_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local output = {}
@@ -578,8 +578,8 @@ local function AVWHUIG_fake_script() -- Frame.LocalScript
 	
 	end)
 end
-coroutine.wrap(AVWHUIG_fake_script)()
-local function LRNM_fake_script() -- Frame.DragScript 
+coroutine.wrap(INNB_fake_script)()
+local function REDHDW_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -622,4 +622,4 @@ local function LRNM_fake_script() -- Frame.DragScript
 	end)
 	
 end
-coroutine.wrap(LRNM_fake_script)()
+coroutine.wrap(REDHDW_fake_script)()
