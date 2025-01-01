@@ -12,7 +12,7 @@ local TEST = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
@@ -64,7 +64,7 @@ TEST.TextSize = 14.000
 
 -- Scripts:
 
-local function INNB_fake_script() -- Frame.LocalScript 
+local function IAZJNTW_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local output = {}
@@ -78,7 +78,7 @@ local function INNB_fake_script() -- Frame.LocalScript
 	
 	function append(n)
 		output[#output + 1] = n
-		backupoutput[#backoutput + 1] = n
+		backupoutput[#backupoutput + 1] = n
 	end
 	
 	if not writefile then
@@ -578,8 +578,8 @@ local function INNB_fake_script() -- Frame.LocalScript
 	
 	end)
 end
-coroutine.wrap(INNB_fake_script)()
-local function REDHDW_fake_script() -- Frame.DragScript 
+coroutine.wrap(IAZJNTW_fake_script)()
+local function LHIG_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -622,4 +622,4 @@ local function REDHDW_fake_script() -- Frame.DragScript
 	end)
 	
 end
-coroutine.wrap(REDHDW_fake_script)()
+coroutine.wrap(LHIG_fake_script)()
